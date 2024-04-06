@@ -35,11 +35,16 @@
 
 .imagem-principal nav a{
     display: block;
-    color: rgba(0, 0, 0, 0.568);
+    color: rgb(51, 51, 51);
     margin: 10px;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+}
+
+.imagem-principal nav a:hover{
+  color: #000;
+  text-decoration: underline;
 }
 
 main{
@@ -83,20 +88,21 @@ main{
   }
 
 .div-secundario{
-    background-color: #4644cf;
+    background-color: #001e47;
     max-width: 1000px;
     margin: auto;
-    box-shadow: 0 0 10px #0052CC;
-    padding-bottom: 40px;
+    box-shadow: 0 0 10px #001e47;
+    padding-bottom: 50px;
+    border-radius: 5px;
 }
 
 article h2{
     color: white;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     font-family: var(--fonte-titulo);
-    font-size: 5em;
+    font-size: 4em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 }
 
@@ -110,20 +116,25 @@ article h2{
 }
 
 .box{
-  background-color: #003B95;
+  background-color: var(--cor0);
   flex-wrap: wrap;
   width: 200px;
   height: 200px;
   margin: 10px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
+.box:hover{
+  background-color: #01285e;
+}
+
 .box img{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .box h3{
@@ -132,7 +143,8 @@ article h2{
   text-decoration: none;
   text-align: center;
   top: 0;
-  padding-top: 15px;
+  font-size: 2em;
+  padding-top: 5px;
 }
 
 footer{
